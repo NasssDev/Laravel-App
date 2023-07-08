@@ -11,11 +11,5 @@ export default defineConfig({
             refresh: true,
         }),
     ],
-    build: {
-        rollupOptions: {
-            // Inclure la bibliothèque Google Closure library
-            external: ['google-closure-library'],
-        },
-    }
 });
 

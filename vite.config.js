@@ -13,6 +13,12 @@ export default defineConfig({
     ],
     build: {
         outDir: 'dist',
+        manifest:true,
+        rollupOptions: {
+            input: {
+                main: '/resources/js/app.js',
+            },
+        },
     },
 });
 

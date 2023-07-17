@@ -22,6 +22,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/api', function () {
+    return view('welcome');
+});
+
 
 Route::get('/todoList', [TodoController::class, 'listTodo'])->name('todoList');
 Route::get('/todoList/doTask/{id}', [TodoController::class, 'doTask']);

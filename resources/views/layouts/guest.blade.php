@@ -13,8 +13,8 @@
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/css/intlTelInput.css">
         <!-- Scripts -->
-        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-        <script src="{{ asset('js/app.js') }}" defer></script>
+        <link rel="stylesheet" href="../../css/app.css">
+        <script src="../../js/app.js" defer></script>
 {{--        @vite(['resources/css/app.css', 'resources/js/app.js'])--}}
     </head>
     <body class="font-sans text-gray-900 antialiased">

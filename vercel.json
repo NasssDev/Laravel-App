@@ -2,12 +2,12 @@
     "version": 2,
     "builds": [
         { "src": "/api/index.php", "use": "vercel-php@0.6.0" },
-        { "src": "/public/**", "use": "@vercel/static" }
-    ],
+        { "src": "/public/build/assets/.*\\.(js|css)", "use": "@vercel/static" },
+        { "src": "/public/build/manifest.json", "use": "@vercel/static" }    ],
     "routes": [
         {
-            "src": "/(css|js)/(.*)",
-            "dest": "resources/$1/$2"
+            "src": "/(assets|manifest)/(.*)",
+            "dest": "/public/build/$1/$2"
         },
         {
             "src": "/(.*)",

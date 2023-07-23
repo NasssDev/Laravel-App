@@ -1,0 +1,33 @@
+@import 'intl-tel-input/build/css/intlTelInput.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.data {
+    border: 1px solid rgb(209,209,209);
+    background-color: white;
+    position: absolute;
+    z-index: 4500;
+    width: 40vw;
+    border-radius: 5px;
+}
+.data li {
+    cursor: pointer;
+    list-style-type: none;
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.data li span {
+    font-weight: bold;
+}
+.data li:hover {
+    background-color: #a5b4fc;
+}
+.data ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}

@@ -10,19 +10,6 @@ export default defineConfig({
             ],
             refresh: true,
         }),
-    ],
-    server: {
-        https: true,
-    },
-    // build: {
-    //     outDir: 'dist',
-    //     manifest:true,
-    //     rollupOptions: {
-    //         input: {
-    //             main: '/resources/js/app.js',
-    //
-    //         },
-    //     },
-    // },
+    ]
 });
 

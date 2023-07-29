@@ -11,14 +11,15 @@ export default defineConfig({
             refresh: true,
         }),
     ],
-    build: {
-        outDir: 'dist',
-        manifest:true,
-        rollupOptions: {
-            input: {
-                main: '/resources/js/app.js',
-            },
-        },
-    },
+    // build: {
+    //     outDir: 'dist',
+    //     manifest:true,
+    //     rollupOptions: {
+    //         input: {
+    //             main: '/resources/js/app.js',
+    //
+    //         },
+    //     },
+    // },
 });
 

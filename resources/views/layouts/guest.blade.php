@@ -17,7 +17,7 @@
 {{--        <script src="https://nasssdev.github.io/laravel-app-assets/js/app.js" defer></script>--}}
 {{--        <script src="https://cdn.tailwindcss.com" defer></script>--}}
 {{--        @vite(['resources/css/app.css', 'resources/js/app.js'])--}}
-        {{asset('resources/css/app.css')}}
+        {{asset('resources/css/app.css',true}}
     </head>
     <body class="font-sans text-gray-900 antialiased">
     @if (Route::has('login'))
